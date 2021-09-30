@@ -6,7 +6,7 @@ library(xts)
 library(htmlwidgets)
 library(webshot)
 
-dataset <- read.csv('D:/R scripts/script_061120_Bitcoin_Data/Bitcoin Historical Data/bitstampUSD_1-min_data_2012-01-01_to_2020-09-14.csv')
+dataset <- read.csv('~/bitstampUSD_1-min_data_2012-01-01_to_2020-09-14.csv')
 
 #
 df <- as.data.frame(dataset)
